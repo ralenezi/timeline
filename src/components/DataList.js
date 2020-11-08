@@ -1,7 +1,6 @@
 import React from 'react'
 import data from '../data'
 import DataItem from './DataItem'
-
 const DataList = () =>
   data.map((e) => (
     <DataItem
